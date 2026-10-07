@@ -36,4 +36,4 @@ If these terms change, the updated version will be posted on this page with a ne
 These terms are governed by the laws of the Republic of Korea.
 
 ## 9. Contact
-For questions about these terms, use the [Support page]({{ '/en/support/' | relative_url }}).
+For questions about these terms, email [flextrip-support@googlegroups.com](mailto:flextrip-support@googlegroups.com) or use the [Support page]({{ '/en/support/' | relative_url }}).

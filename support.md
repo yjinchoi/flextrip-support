@@ -7,6 +7,11 @@ description: FlexTrip 사용 도움말과 문제 보고 방법입니다.
 ---
 # 지원
 
+## 문의
+이메일: [flextrip-support@googlegroups.com](mailto:flextrip-support@googlegroups.com)
+
+개인정보나 계정과 관련한 문의처럼 공개하기 어려운 내용은 이메일로 보내 주세요. 보낸 메일은 공개되지 않습니다.
+
 ## 문제 보고·기능 제안
 [GitHub Issues](https://github.com/{{ site.repository }}/issues/new/choose)에서 양식을 골라 남겨 주세요.
 

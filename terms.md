@@ -36,4 +36,4 @@ description: FlexTrip 앱 이용약관입니다.
 이 약관은 대한민국 법률을 따릅니다.
 
 ## 9. 문의
-약관에 관한 문의는 [지원 페이지]({{ '/support/' | relative_url }})를 이용해 주세요.
+약관에 관한 문의는 [flextrip-support@googlegroups.com](mailto:flextrip-support@googlegroups.com) 또는 [지원 페이지]({{ '/support/' | relative_url }})를 이용해 주세요.
