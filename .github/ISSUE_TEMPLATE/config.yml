@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: 개인정보처리방침 / Privacy Policy
-    url: https://yjinchoi.github.io/flextrip-support/privacy/
+    url: https://flex-trip.net/privacy/
     about: 앱이 다루는 정보 / What information the app handles
   - name: 자주 묻는 질문 / FAQ
-    url: https://yjinchoi.github.io/flextrip-support/support/
+    url: https://flex-trip.net/support/
     about: 문제를 보고하기 전에 확인해 보세요 / Check before reporting
