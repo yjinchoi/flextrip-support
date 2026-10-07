@@ -1,0 +1,11 @@
+title: FlexTrip
+description: 유연하게 바꾸는 여행 계획 앱 FlexTrip
+url: https://yjinchoi.github.io
+baseurl: /flextrip-support
+repository: yjinchoi/flextrip-support
+lang: ko
+exclude:
+  - README.md
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }

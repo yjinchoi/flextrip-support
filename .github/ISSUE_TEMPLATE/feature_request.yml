@@ -1,0 +1,14 @@
+name: 기능 제안 / Feature request
+description: 있었으면 하는 기능 / Suggest an idea
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 어떤 상황에서 무엇이 필요했나요? / What did you need, and when?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 생각한 방법 / Your idea
