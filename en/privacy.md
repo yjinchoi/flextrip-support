@@ -62,4 +62,4 @@ The app is not directed at children, and the developer does not collect informat
 If this policy changes, the updated version will be posted on this page with a new effective date.
 
 ## 10. Contact
-For privacy questions, please follow the instructions on the [Support page]({{ '/en/support/' | relative_url }}).
+For privacy questions, email [flex.trip@gmail.com](mailto:flex.trip@gmail.com). For other questions, see the [Support page]({{ '/en/support/' | relative_url }}).

@@ -7,6 +7,11 @@ description: Help for FlexTrip and how to report issues.
 ---
 # Support
 
+## Contact
+Email: [flex.trip@gmail.com](mailto:flex.trip@gmail.com)
+
+For anything you'd rather not post publicly, such as privacy or account questions, please email us.
+
 ## Report a problem or suggest a feature
 Choose a form on [GitHub Issues](https://github.com/{{ site.repository }}/issues/new/choose).
 
