@@ -62,4 +62,4 @@ FlexTrip이 Google API에서 받은 정보의 사용과 전송은 [Google API �
 이 방침을 바꾸면 이 페이지에 새 시행일과 함께 게시합니다.
 
 ## 10. 문의
-개인정보와 관련한 문의는 [flex.trip@gmail.com](mailto:flex.trip@gmail.com)으로 보내 주세요. 다른 문의는 [지원 페이지]({{ '/support/' | relative_url }})를 이용할 수 있습니다.
+개인정보와 관련한 문의는 [지원 페이지]({{ '/support/' | relative_url }})의 안내를 따라 보내 주세요.
