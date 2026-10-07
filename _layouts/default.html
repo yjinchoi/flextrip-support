@@ -1,5 +1,5 @@
 <!doctype html>
-{%- assign en = page.lang == 'en' -%}
+{%- if page.lang == 'en' -%}{%- assign en = true -%}{%- else -%}{%- assign en = false -%}{%- endif -%}
 {%- if en -%}{%- assign home = '/en/' -%}{%- else -%}{%- assign home = '/' -%}{%- endif -%}
 <html lang="{{ page.lang | default: site.lang }}">
 <head>
