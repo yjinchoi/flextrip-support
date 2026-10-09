@@ -7,7 +7,7 @@ description: What information the FlexTrip app stores, where it is stored, and w
 ---
 # Privacy Policy
 
-<p class="meta">Effective date: October 7, 2026</p>
+<p class="meta">Effective date: October 9, 2026</p>
 
 FlexTrip ("the app") stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
@@ -32,6 +32,9 @@ The following information you enter or choose is stored only in the app's storag
 | Cloud backup, restore, and export | Backup files (the trip and place data in section 2) and exported files | The Google Drive, Dropbox, or iCloud account you connect |
 | External directions | Names and coordinates of the start and destination, transport mode | The map or navigation app you choose (Naver Map, KakaoMap, TMAP, Google Maps, Apple Maps) |
 | Sharing files | The files you choose | The app you choose in the share sheet |
+| Receiving a place shared from another map app | If the shared link is a short link (maps.app.goo.gl, naver.me, kko.to, and so on), the link address, to find the place's location | The link server of the map company that made the link (Google, NAVER, Kakao, Apple) |
+
+When you receive a place shared from another map app, its name, address, and location are stored on your device only when you save it in the place form. The app sends only the link address to the short-link server and reads only the original map address that the server returns.
 
 This information is shared only when you use the feature, and the recipient's privacy policy applies. The developer does not receive or see this information.
 
