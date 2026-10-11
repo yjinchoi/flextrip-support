@@ -7,7 +7,7 @@ description: What information the FlexTrip app stores, where it is stored, and w
 ---
 # Privacy Policy
 
-<p class="meta">Effective date: October 10, 2026</p>
+<p class="meta">Effective date: October 11, 2026</p>
 
 FlexTrip ("the app") stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
@@ -74,5 +74,8 @@ The app is not directed at children, and the developer does not collect informat
 ## 9. Changes to this policy
 If this policy changes, the updated version will be posted on this page with a new effective date.
 
-## 10. Contact
+## 10. This website (flex-trip.net)
+Sections 1–9 of this policy cover the app. This website includes a script (Drive) from the travel affiliate platform **Travelpayouts** (Travelspark Limited). The script places affiliate links to travel products on pages and, to count clicks and bookings made through those links, may use cookies and pass browser information (such as IP address, browser type, and pages visited) to Travelpayouts and its partner brands. If you book through such a link, the developer may receive a commission; the price you pay does not change. Travelpayouts' [Privacy Policy](https://support.travelpayouts.com/hc/en-us/articles/360004121052) applies. Blocking cookies or scripts in your browser disables this feature without affecting the rest of the website. The app does not use this script.
+
+## 11. Contact
 For privacy questions, email [flextrip-support@googlegroups.com](mailto:flextrip-support@googlegroups.com). For other questions, see the [Support page]({{ '/en/support/' | relative_url }}).
