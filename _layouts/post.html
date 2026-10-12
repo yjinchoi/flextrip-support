@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{%- if page.lang == 'en' -%}{%- assign en = true -%}{%- else -%}{%- assign en = false -%}{%- endif -%}
+<article class="post">
+  <p class="meta">
+    <a href="{% if en %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}">{% if en %}Blog{% else %}블로그{% endif %}</a>
+    · <time datetime="{{ page.date | date_to_xmlschema }}">{% if en %}{{ page.date | date: '%b %-d, %Y' }}{% else %}{{ page.date | date: '%Y년 %-m월 %-d일' }}{% endif %}</time>
+  </p>
+  <h1>{{ page.title }}</h1>
+  {%- if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  {{ content }}
+  <aside class="app-cta">
+    {%- if en %}
+    <strong>FlexTrip</strong> is a travel planning app for iOS and Android. The app screens are currently in Korean.
+    {%- else %}
+    <strong>FlexTrip</strong>은 iOS·Android 여행 계획 앱입니다. 회원 가입 없이 여행 데이터는 기기에만 저장됩니다.
+    {%- endif %}
+  </aside>
+  {%- assign siblings = site.posts | where: "lang", page.lang | where: "series", page.series -%}
+  {%- if page.series and siblings.size > 1 %}
+  <nav class="series" aria-label="{% if en %}More in this series{% else %}이 시리즈의 다른 글{% endif %}">
+    <h2>{% if en %}More in this series{% else %}이 시리즈의 다른 글{% endif %}</h2>
+    <ol>
+      {%- for p in siblings reversed %}
+      <li>{% if p.url == page.url %}<strong>{{ p.title }}</strong>{% else %}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% endif %}</li>
+      {%- endfor %}
+    </ol>
+  </nav>
+  {%- endif %}
+</article>

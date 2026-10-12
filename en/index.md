@@ -27,5 +27,9 @@ FlexTrip is a travel planning app for iOS and Android. Collect the places you wa
 ## Your data stays on your device
 FlexTrip has no sign-up. Your trip data is stored on your device, and backups go only to the cloud account you connect. See the [Privacy Policy]({{ '/en/privacy/' | relative_url }}) for details.
 
+## Guides
+{% include post-list.html lang="en" limit=3 %}
+[See all posts]({{ '/en/blog/' | relative_url }})
+
 ## Need help?
 For how-tos and issue reports, visit [Support]({{ '/en/support/' | relative_url }}).

@@ -6,6 +6,14 @@ repository: yjinchoi/flextrip-support
 lang: ko
 exclude:
   - README.md
+permalink: /blog/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+feed:
+  path: blog/feed.xml
 defaults:
   - scope: { path: "" }
     values: { layout: default }
+  - scope: { path: "", type: posts }
+    values: { layout: post }

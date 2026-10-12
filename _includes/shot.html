@@ -1,0 +1,5 @@
+{%- comment -%} 앱 화면 캡처 한 장: {% include shot.html src="01-trip-form" alt="…" caption="…" %} {%- endcomment -%}
+<figure class="shot">
+  <img src="{{ '/assets/img/blog/' | append: include.src | append: '.png' | relative_url }}" alt="{{ include.alt }}" loading="lazy" width="390" height="848">
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

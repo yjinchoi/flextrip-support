@@ -27,5 +27,9 @@ FlexTrip은 가고 싶은 장소를 모으고, 날짜별 일정을 짜고, 장�
 ## 기기에 저장되는 앱
 FlexTrip에는 회원 가입이 없고, 여행 데이터는 기기에만 저장됩니다. 백업을 켜면 사용자가 연결한 클라우드 계정에만 저장됩니다. 자세한 내용은 [개인정보처리방침]({{ '/privacy/' | relative_url }})을 확인하세요.
 
+## 사용 안내 블로그
+{% include post-list.html lang="ko" limit=3 %}
+[블로그 전체 보기]({{ '/blog/' | relative_url }})
+
 ## 도움이 필요하신가요?
 사용 방법과 문제 보고는 [지원]({{ '/support/' | relative_url }}) 페이지를 보세요.

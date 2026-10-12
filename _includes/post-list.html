@@ -1,0 +1,10 @@
+{%- assign posts = site.posts | where: "lang", include.lang -%}
+<ul class="post-list">
+  {%- for post in posts limit: include.limit %}
+  <li>
+    <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
+    <span class="meta">{% if include.lang == 'en' %}{{ post.date | date: '%b %-d, %Y' }}{% else %}{{ post.date | date: '%Y.%-m.%-d' }}{% endif %}</span>
+    {%- if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
