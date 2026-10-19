@@ -7,7 +7,7 @@ description: What information the FlexTrip app stores, where it is stored, and w
 ---
 # Privacy Policy
 
-<p class="meta">Effective date: October 11, 2026</p>
+<p class="meta">Effective date: October 19, 2026</p>
 
 FlexTrip ("the app") stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
@@ -30,28 +30,35 @@ The following information you enter or choose is stored only in the app's storag
 - Photos you attach to places
 - App settings (theme, default currency, error report setting, and so on)
 - Error reports not yet sent (up to 5, deleted after 7 days)
+- Diagnostic log: numbers such as screen positions and scroll heights, plus state names (the most recent 3,000 lines). It contains no trip or place content and leaves your device only when you share it yourself from **Settings › Send diagnostic log**.
 
 ## 3. Information shared when you use certain features
 
 | Feature | Information shared | Recipient |
 | --- | --- | --- |
-| Place search and dropping a pin (iOS) | Search text, visible map area, coordinates of the pin | Apple (Maps, MapKit) |
-| Place search and dropping a pin (Android) | Search text, coordinates of the pin | The device's location services (Google) |
+| Place search, dropping a pin, and fetching an address (iOS) | Search text, visible map area, coordinates of the pin or place | Apple (Maps, MapKit) |
+| Showing the Apple Maps place card (iOS 18 or later) | The place's Apple Maps identifier | Apple (Maps) |
+| Place search, dropping a pin, and fetching an address (Android) | Search text, coordinates of the pin or place | The device's location services (Google) |
 | Map display (Android) | Visible map area | Google Maps SDK |
 | Cloud backup, restore, and export | Backup files (the trip and place data in section 2) and exported files | The Google Drive, Dropbox, or iCloud account you connect |
+| iCloud sync across devices (iOS, if turned on) | The trip and place data in section 2 | The private database of your iCloud account (Apple CloudKit) |
 | External directions | Names and coordinates of the start and destination, transport mode | The map or navigation app you choose (Naver Map, KakaoMap, TMAP, Google Maps, Apple Maps) |
 | Sharing files | The files you choose | The app you choose in the share sheet |
 | Error reports (section 1) | The error report | The developer's private GitHub repository (GitHub, Inc.) |
+| Travel product links (see "Affiliate links" below) | The search conditions in the link you tap (for example city and dates) | The affiliate platform Travelpayouts (Travelspark Limited) and the selling site |
 | Receiving a place shared from another map app | If the shared link is a short link (maps.app.goo.gl, naver.me, kko.to, and so on), the link address, to find the place's location | The link server of the map company that made the link (Google, NAVER, Kakao, Apple) |
 
 When you receive a place shared from another map app, its name, address, and location are stored on your device only when you save it in the place form. The app sends only the link address to the short-link server and reads only the original map address that the server returns.
+
+### Affiliate links
+Some links to selling sites, such as in finding stays and flights, finding tickets and tours, and checklist suggestions, are affiliate links. When you tap one, your device's browser goes to the selling site through Travelpayouts, and if you book there, the selling site pays the developer a small commission (the price is the same). The link contains only fixed values for the developer's affiliate account and the link's location in the app (for example, finding stays) and the search conditions you are looking for (city, dates, and so on); it never contains values that identify you or your device. After you leave the app, the privacy policies of Travelpayouts and the selling site apply. Turning off **Settings › Show travel product suggestions** hides affiliate links.
 
 This information is shared only when you use the feature, and the recipient's privacy policy applies. Apart from error reports, the developer does not receive or see this information.
 
 ## 4. Connecting cloud accounts
 - **Google Drive**: The app requests only the `drive.file` scope. It can access only files the app created (backups and exports in the FlexTrip folder) and cannot see your other Drive files.
 - **Dropbox**: The app can access only its own app folder (`Apps/FlexTrip`). Your account name and email are used only to show which account is connected.
-- **iCloud** (iOS): The app uses the FlexTrip folder in your iCloud Drive.
+- **iCloud** (iOS): Backups use the FlexTrip folder in your iCloud Drive. If you turn on sync across devices, trip and place data syncs to the private database of your iCloud account (CloudKit), which the developer cannot access. Turning it off in Settings stops syncing.
 - Sign-in happens in your device's system browser; the app never receives your password. Access tokens are kept only in the device's secure storage (iOS Keychain, Android Keystore).
 - When you disconnect an account in Settings, the app revokes the token and deletes it from the device. Backup files already uploaded remain in your cloud account, and you can delete them yourself.
 
@@ -75,7 +82,7 @@ The app is not directed at children, and the developer does not collect informat
 If this policy changes, the updated version will be posted on this page with a new effective date.
 
 ## 10. This website (flex-trip.net)
-Sections 1–9 of this policy cover the app. This website includes a script (Drive) from the travel affiliate platform **Travelpayouts** (Travelspark Limited). The script places affiliate links to travel products on pages and, to count clicks and bookings made through those links, may use cookies and pass browser information (such as IP address, browser type, and pages visited) to Travelpayouts and its partner brands. If you book through such a link, the developer may receive a commission; the price you pay does not change. Travelpayouts' [Privacy Policy](https://support.travelpayouts.com/hc/en-us/articles/360004121052) applies. Blocking cookies or scripts in your browser disables this feature without affecting the rest of the website. The app does not use this script.
+Sections 1–9 of this policy cover the app. This website includes a script (Drive) from the travel affiliate platform **Travelpayouts** (Travelspark Limited). The script places affiliate links to travel products on pages and, to count clicks and bookings made through those links, may use cookies and pass browser information (such as IP address, browser type, and pages visited) to Travelpayouts and its partner brands. If you book through such a link, the developer may receive a commission; the price you pay does not change. Travelpayouts' [Privacy Policy](https://support.travelpayouts.com/hc/en-us/articles/360004121052) applies. Blocking cookies or scripts in your browser disables this feature without affecting the rest of the website. The app does not use this script (for affiliate links in the app, see "Affiliate links" in section 3).
 
 ## 11. Contact
 For privacy questions, email [flextrip-support@googlegroups.com](mailto:flextrip-support@googlegroups.com). For other questions, see the [Support page]({{ '/en/support/' | relative_url }}).
