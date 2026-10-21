@@ -6,14 +6,14 @@ class: home
 description: Collect places, plan your days, and manage routes and costs in one travel planning app.
 ---
 <section class="hero">
-  <img src="{{ '/assets/img/logo-symbol-512.png' | relative_url }}" alt="FlexTrip app icon">
+  <img src="{{ '/assets/img/logo-symbol-512.png' | relative_url }}" alt="Flex Trip Planner app icon">
   <div>
-    <h1>FlexTrip</h1>
+    <h1>Flex Trip Planner</h1>
     <p>Travel plans that bend with you</p>
   </div>
 </section>
 
-FlexTrip is a travel planning app for iOS and Android. Collect the places you want to visit, plan each day, and keep track of how you get between places and what it costs. When plans change, moving things around is easy.
+Flex Trip Planner is a travel planning app for iOS and Android. Collect the places you want to visit, plan each day, and keep track of how you get between places and what it costs. When plans change, moving things around is easy.
 
 <ul class="cards">
   <li><strong>Collect places</strong>Search the map or drop a pin to save places you want to visit.</li>
@@ -25,7 +25,7 @@ FlexTrip is a travel planning app for iOS and Android. Collect the places you wa
 </ul>
 
 ## Your data stays on your device
-FlexTrip has no sign-up. Your trip data is stored on your device, and backups go only to the cloud account you connect. See the [Privacy Policy]({{ '/en/privacy/' | relative_url }}) for details.
+Flex Trip Planner has no sign-up. Your trip data is stored on your device, and backups go only to the cloud account you connect. See the [Privacy Policy]({{ '/en/privacy/' | relative_url }}) for details.
 
 ## Guides
 {% include post-list.html lang="en" limit=3 %}

@@ -37,7 +37,7 @@
     <div class="wrap header-row">
       <a class="brand" href="{{ home | relative_url }}">
         <img src="{{ '/assets/img/logo-symbol-192.png' | relative_url }}" alt="" width="36" height="36">
-        <span>FlexTrip</span>
+        <span>{% if en %}Flex Trip Planner{% else %}여행 계획 수립{% endif %}</span>
       </a>
       <nav aria-label="{% if en %}Main{% else %}주 메뉴{% endif %}">
         {%- if en %}
@@ -62,7 +62,7 @@
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <p>© 2026 FlexTrip ·
+      <p>© 2026 {% if en %}Flex Trip Planner{% else %}여행 계획 수립{% endif %} ·
         <a href="https://github.com/{{ site.repository }}/issues">{% if en %}Report an issue{% else %}문제 보고{% endif %}</a></p>
     </div>
   </footer>

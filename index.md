@@ -6,14 +6,14 @@ class: home
 description: 장소를 모으고, 날짜별 일정을 짜고, 이동 경로와 비용까지 한곳에서 관리하는 여행 계획 앱입니다.
 ---
 <section class="hero">
-  <img src="{{ '/assets/img/logo-symbol-512.png' | relative_url }}" alt="FlexTrip 앱 아이콘">
+  <img src="{{ '/assets/img/logo-symbol-512.png' | relative_url }}" alt="여행 계획 수립 앱 아이콘">
   <div>
-    <h1>FlexTrip</h1>
+    <h1>여행 계획 수립</h1>
     <p>유연하게 바꾸는 여행 계획</p>
   </div>
 </section>
 
-FlexTrip은 가고 싶은 장소를 모으고, 날짜별 일정을 짜고, 장소 사이의 이동과 비용까지 한곳에서 관리하는 iOS·Android 여행 계획 앱입니다. 계획이 바뀌어도 일정을 쉽게 옮기고 고칠 수 있습니다.
+여행 계획 수립은 가고 싶은 장소를 모으고, 날짜별 일정을 짜고, 장소 사이의 이동과 비용까지 한곳에서 관리하는 iOS·Android 여행 계획 앱입니다. 계획이 바뀌어도 일정을 쉽게 옮기고 고칠 수 있습니다.
 
 <ul class="cards">
   <li><strong>장소 모으기</strong>지도에서 검색하거나 직접 찍어 가고 싶은 곳을 저장합니다.</li>
@@ -25,7 +25,7 @@ FlexTrip은 가고 싶은 장소를 모으고, 날짜별 일정을 짜고, 장�
 </ul>
 
 ## 기기에 저장되는 앱
-FlexTrip에는 회원 가입이 없고, 여행 데이터는 기기에만 저장됩니다. 백업을 켜면 사용자가 연결한 클라우드 계정에만 저장됩니다. 자세한 내용은 [개인정보처리방침]({{ '/privacy/' | relative_url }})을 확인하세요.
+여행 계획 수립에는 회원 가입이 없고, 여행 데이터는 기기에만 저장됩니다. 백업을 켜면 사용자가 연결한 클라우드 계정에만 저장됩니다. 자세한 내용은 [개인정보처리방침]({{ '/privacy/' | relative_url }})을 확인하세요.
 
 ## 사용 안내 블로그
 {% include post-list.html lang="ko" limit=3 %}

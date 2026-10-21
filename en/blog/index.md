@@ -2,11 +2,15 @@
 lang: en
 title: Blog
 permalink: /en/blog/
+redirect_from:
+  - /en/blog/lodging-and-flights/
+  - /en/blog/checklist/
+  - /en/blog/on-the-day/
 alt: /blog/
-description: Guides to planning a trip with FlexTrip and using the app in real travel situations.
+description: Real examples of planning trips with Flex Trip Planner.
 ---
 # Blog
 
-Guides to planning a trip with FlexTrip and using the app in real travel situations.
+From a quick route-only trip to multi-city journeys and swapping places with Google My Maps, here are real examples of planning trips with Flex Trip Planner.
 
 {% include post-list.html lang="en" %}

@@ -1,5 +1,5 @@
-title: FlexTrip
-description: 유연하게 바꾸는 여행 계획 앱 FlexTrip
+title: 여행 계획 수립
+description: 유연하게 바꾸는 여행 계획 앱 여행 계획 수립(Flex Trip Planner)
 url: https://flex-trip.net
 baseurl: ""
 repository: yjinchoi/flextrip-support
@@ -10,6 +10,7 @@ permalink: /blog/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 feed:
   path: blog/feed.xml
 defaults:
