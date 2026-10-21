@@ -9,7 +9,7 @@ description: What information the FlexTrip app stores, where it is stored, and w
 
 <p class="meta">Effective date: October 21, 2026</p>
 
-FlexTrip ("the app") stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
+Flex Trip Planner ("FlexTrip" or "the app"; Korean name 여행 계획 수립) stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
 ## 1. Information the developer collects
 The developer does not collect your personal information. The app contains no analytics tools, and its only advertising is Google AdMob as described in "Ads" below. The only information the developer receives directly is the "Error reports" described below. Error reports are diagnostic information for fixing the app, designed not to contain anything that identifies you.
