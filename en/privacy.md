@@ -7,7 +7,7 @@ description: What information the FlexTrip app stores, where it is stored, and w
 ---
 # Privacy Policy
 
-<p class="meta">Effective date: October 19, 2026</p>
+<p class="meta">Effective date: October 21, 2026</p>
 
 FlexTrip ("the app") stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
@@ -23,8 +23,8 @@ If the app hits an error or closes unexpectedly, it asks you "Send an error repo
 - **Purpose and retention**: Reports are used only to find and fix errors. Reports are deleted once the cause is fixed, and in any case within one year of receipt.
 
 ### Ads
-All features of the app are free. There are no ads for the first 3 months after installation; after that, a full-screen ad appears once only right before you share a trip or place file (never for backups or error reports). Ads are shown by Google AdMob, and Google may receive your device's advertising identifier (on iOS only if you allow "Allow Tracking"), an approximate location estimated from your IP address, ad impression and click information, and ad SDK interaction and performance diagnostics. Trip and place content is never passed to ads.
-- When an ad is first needed, Google's consent form (UMP) appears where required, and on iOS the app then asks "Allow Tracking". If you don't allow it, only non-personalized ads are shown. You can change this anytime in **Settings › Remove ads › Ad privacy settings**.
+All features of the app are free. There are no ads for the first 3 months after installation; after that, a banner ad appears on the progress screen only while you export, save a backup, restore, or import a file (it closes by itself when the task finishes; never for error reports). Ads are shown by Google AdMob, and Google may receive your device's advertising identifier (on iOS only if you allow "Allow Tracking"), an approximate location estimated from your IP address, ad impression and click information, and ad SDK interaction and performance diagnostics. Trip and place content is never passed to ads.
+- On iOS, the app asks "Allow Tracking" once, the first time you open it after installing (even during the free trial or after buying Remove ads; your answer is kept on the device and you are not asked again). When an ad is first needed after the free trial, Google's consent form (UMP) appears where required. If you don't allow it, only non-personalized ads are shown. You can change this anytime in **Settings › Remove ads › Ad privacy settings**.
 - Google's [Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites) apply.
 
 ### Remove-ads purchase
@@ -74,8 +74,8 @@ FlexTrip's use and transfer of information received from Google APIs adheres to 
 
 ## 5. Device permissions
 - **Photo library and camera** (optional): requested only when you attach a photo to a place.
-- **Allow Tracking** (iOS, optional): asked once when an ad is first needed after the free trial (see "Ads" above).
-- **Location**: The app does not request device location permission. "Start from current location" in directions is handled by the directions app itself.
+- **Allow Tracking** (iOS, optional): asked once the first time you open the app (see "Ads" above).
+- **Location** (iOS, optional): asked ("While Using the App") only when you tap **Use location** on the "Now on your trip" card during a trip. It is used only to show the place you are visiting or the leg you are traveling on in the app, widgets, the Lock Screen (Live Activity), and Apple Watch. Your location never leaves your device. The app reads location in the background only while the Lock Screen display is on, and stops when you turn it off. "Start from current location" in directions is handled by the directions app itself.
 
 ## 6. Retention and deletion
 - Data on your device stays until you delete it. Using **Settings › Storage › Reset data** or deleting the app removes it from your device.
