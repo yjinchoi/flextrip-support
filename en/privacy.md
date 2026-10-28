@@ -7,12 +7,12 @@ description: What information the FlexTrip app stores, where it is stored, and w
 ---
 # Privacy Policy
 
-<p class="meta">Effective date: October 21, 2026</p>
+<p class="meta">Effective date: October 28, 2026</p>
 
 Flex Trip Planner ("FlexTrip" or "the app"; Korean name 여행 계획 수립) stores your travel plans **on your device**. The developer does not offer accounts and does not run any server that receives or keeps your information. This policy explains what information the app handles and where it goes depending on the features you choose to use.
 
 ## 1. Information the developer collects
-The developer does not collect your personal information. The app contains no analytics tools, and its only advertising is Google AdMob as described in "Ads" below. The only information the developer receives directly is the "Error reports" described below. Error reports are diagnostic information for fixing the app, designed not to contain anything that identifies you.
+The developer does not collect your personal information. The app contains no analytics tools and no ads, and it does not track you. The only information the developer receives directly is the "Error reports" described below. Error reports are diagnostic information for fixing the app, designed not to contain anything that identifies you.
 
 ### Error reports
 If the app hits an error or closes unexpectedly, it asks you "Send an error report?" and sends one only if you choose Send (the default setting is "Ask on error"). If you choose "Always send" in **Settings › Error reports**, reports are sent without asking. Before sending, "Show what will be sent" shows the exact report, and choosing "Don't send" deletes that report from your device. Error reports are not linked to any account or unique device identifier and are never used for advertising or tracking.
@@ -22,13 +22,8 @@ If the app hits an error or closes unexpectedly, it asks you "Send an error repo
 - **Recipient**: The report is stored as an issue in the developer's private GitHub repository (operated by GitHub, Inc.), visible only to the developer. GitHub's [Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement) applies. As with any internet connection, GitHub's servers may receive your device's IP address, but the IP address is not part of the report and the developer never receives or sees it.
 - **Purpose and retention**: Reports are used only to find and fix errors. Reports are deleted once the cause is fixed, and in any case within one year of receipt.
 
-### Ads
-All features of the app are free. There are no ads for the first 3 months after installation; after that, a banner ad appears on the progress screen only while you export, save a backup, restore, or import a file (it closes by itself when the task finishes; never for error reports). Ads are shown by Google AdMob, and Google may receive your device's advertising identifier (on iOS only if you allow "Allow Tracking"), an approximate location estimated from your IP address, ad impression and click information, and ad SDK interaction and performance diagnostics. Trip and place content is never passed to ads.
-- On iOS, the app asks "Allow Tracking" once, the first time you open it after installing (even during the free trial or after buying Remove ads; your answer is kept on the device and you are not asked again). When an ad is first needed after the free trial, Google's consent form (UMP) appears where required. If you don't allow it, only non-personalized ads are shown. You can change this anytime in **Settings › Remove ads › Ad privacy settings**.
-- Google's [Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites) apply.
-
-### Remove-ads purchase
-In **Settings › Remove ads** you can buy a subscription (monthly or yearly, auto-renewing) or a lifetime pass to remove ads. Payment is handled by the Apple App Store or Google Play, and the developer never receives your payment information. The app only checks what you bought (product and expiry) on the device. On iPhone and iPad, the free-trial start date and remove-ads status are shared through the device keychain with the developer's other travel apps (Trip Route and Trip Photo); this never leaves the device.
+### Support development (tips)
+Every feature of the app is free and there are no ads. In **Settings › Support Development** you can optionally leave a tip ($1, $2 or $5, a one-time in-app purchase each time) to support development. A tip unlocks nothing. Payment is handled by the Apple App Store or Google Play, the developer never receives your payment information, and the app keeps no record of your tips.
 
 ## 2. Information stored on your device
 The following information you enter or choose is stored only in the app's storage on your device:
@@ -50,6 +45,7 @@ The following information you enter or choose is stored only in the app's storag
 | Map display (Android) | Visible map area | Google Maps SDK |
 | Cloud backup, restore, and export | Backup files (the trip and place data in section 2) and exported files | The Google Drive, Dropbox, or iCloud account you connect |
 | iCloud sync across devices (iOS, if turned on) | The trip and place data in section 2 | The private database of your iCloud account (Apple CloudKit) |
+| Sharing trip plans with the developer's travel apps (iOS) | Trip name and dates; each visit's place name, address, coordinates, place type and planned times | A shared app-group folder on the same device and the private database of your iCloud account (Apple CloudKit). Only the developer's Trip Route (TripRoute) and Trip Photo (TripPhoto) apps read it; it is never sent to the developer's servers |
 | External directions | Names and coordinates of the start and destination, transport mode | The map or navigation app you choose (Naver Map, KakaoMap, TMAP, Google Maps, Apple Maps) |
 | Sharing files | The files you choose | The app you choose in the share sheet |
 | Error reports (section 1) | The error report | The developer's private GitHub repository (GitHub, Inc.) |
@@ -74,7 +70,6 @@ FlexTrip's use and transfer of information received from Google APIs adheres to 
 
 ## 5. Device permissions
 - **Photo library and camera** (optional): requested only when you attach a photo to a place.
-- **Allow Tracking** (iOS, optional): asked once the first time you open the app (see "Ads" above).
 - **Location** (iOS, optional): asked ("While Using the App") only when you tap **Use location** on the "Now on your trip" card during a trip. It is used only to show the place you are visiting or the leg you are traveling on in the app, widgets, the Lock Screen (Live Activity), and Apple Watch. Your location never leaves your device. The app reads location in the background only while the Lock Screen display is on, and stops when you turn it off. "Start from current location" in directions is handled by the directions app itself.
 
 ## 6. Retention and deletion
@@ -82,7 +77,7 @@ FlexTrip's use and transfer of information received from Google APIs adheres to 
 - You can delete cloud backup files directly in your cloud account.
 
 ## 7. Sale and sharing with third parties
-The developer does not sell your information. Apart from Google AdMob receiving the information described in "Ads" to show ads, it is not provided to third parties. Error reports are only stored in the developer's GitHub repository and are not passed on to anyone else.
+The developer does not sell your information or provide it to third parties. Error reports are only stored in the developer's GitHub repository and are not passed on to anyone else.
 
 ## 8. Children
 The app is not directed at children, and the developer does not collect information from children.
