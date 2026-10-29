@@ -22,6 +22,8 @@ Flex Trip Planner is a travel planning app for iOS and Android. Collect the plac
   <li><strong>Costs and currencies</strong>Record costs in any currency and see the totals.</li>
   <li><strong>Import and export</strong>Exchange places and trips as KML, KMZ, or CSV files.</li>
   <li><strong>Back up to your cloud</strong>Back up to your own Google Drive, Dropbox, or iCloud account.</li>
+  <li><strong>Works with Trip Route and Trip Photo</strong>The developer's Trip Route and Trip Photo apps record routes and group photos by the places planned here.</li>
+  <li><strong>Free, no ads</strong>Every feature is free and there are no ads. You can optionally support development.</li>
 </ul>
 
 ## Your data stays on your device

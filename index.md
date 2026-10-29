@@ -22,6 +22,8 @@ description: 장소를 모으고, 날짜별 일정을 짜고, 이동 경로와 �
   <li><strong>비용과 통화</strong>여행 비용을 통화별로 기록하고 합계를 봅니다.</li>
   <li><strong>파일 가져오기·내보내기</strong>KML·KMZ·CSV로 장소와 여행을 주고받습니다.</li>
   <li><strong>내 클라우드에 백업</strong>Google Drive·Dropbox·iCloud의 내 계정에 백업합니다.</li>
+  <li><strong>여행 경로·여행 사진과 함께</strong>같은 개발자의 여행 경로·여행 사진 정리 앱이 이 계획의 방문 장소로 동선을 기록하고 사진을 묶습니다.</li>
+  <li><strong>완전 무료, 광고 없음</strong>모든 기능이 무료이고 광고가 없습니다. 원하면 개발을 응원할 수 있습니다.</li>
 </ul>
 
 ## 기기에 저장되는 앱

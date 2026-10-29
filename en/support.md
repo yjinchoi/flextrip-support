@@ -22,6 +22,12 @@ Issues are public. Please do not include personal information such as trip detai
 
 ## Frequently asked questions
 
+### Is it really free? Are there ads or paid features?
+Every feature is free and there are no ads. In **Settings › Support Development** you can optionally leave a tip ($1, $2 or $5), but a tip unlocks nothing and is not a subscription. Tips are processed by the App Store, and refunds follow Apple's refund process.
+
+### Can I use it with Trip Route and Trip Photo?
+The developer's Trip Route (TripRoute) and Trip Photo (TripPhoto) iPhone apps read the trip plans you make here and use the planned places when recording a route or grouping photos. Plans are shared directly on the same device and through iCloud (same Apple ID) on other devices. There is nothing to set up in this app.
+
 ### Where is my data stored?
 Only on your device. There is no sign-up and no developer server. See the [Privacy Policy]({{ '/en/privacy/' | relative_url }}) for details.
 

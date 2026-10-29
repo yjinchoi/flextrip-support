@@ -7,12 +7,12 @@ description: Terms of Use for the FlexTrip app.
 ---
 # Terms of Use
 
-<p class="meta">Effective date: October 7, 2026</p>
+<p class="meta">Effective date: October 28, 2026</p>
 
 These terms set out the conditions for using the FlexTrip app ("the app"). By installing or using the app, you agree to these terms.
 
 ## 1. The service
-The app provides free tools to plan and manage travel places, daily plans, transport, and costs on your device. The developer may change features or discontinue parts of the app.
+The app provides free tools to plan and manage travel places, daily plans, transport, and costs on your device. The developer may change features or discontinue parts of the app. The app has no ads; tips in **Settings › Support Development** are optional and unlock nothing. Payment and refunds for tips follow the policies of the Apple App Store or Google Play.
 
 ## 2. Your data
 The trip plans, places, photos, and other content you enter belong to you. Because data is stored only on your device and in the cloud account you connect, you are responsible for keeping backups in case you lose your device or delete the app.
